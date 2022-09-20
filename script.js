@@ -131,5 +131,4 @@ const foodCategory = document.querySelectorAll(".food-category");
 
 foodCategory.forEach((el) => {
   el.style.backgroundColor = bgGenerator();
-  el.style.padding = "7rem";
 });
